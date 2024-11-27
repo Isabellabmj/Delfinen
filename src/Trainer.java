@@ -2,19 +2,18 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 
-public class Medlem extends Person
+public class Trainer extends Person
 {
-    protected int medlemID;
-    protected LocalDate oprettelsesDato;
+    protected String disciplin;
 
-    public Medlem()
+
+    public Trainer()
     {}
 
-    public Medlem(String navn, int foedselsdag, int tlfNr, String mail, int medlemID, LocalDate oprettelsesDato)
+    public Trainer(String navn, int foedselsdag, int tlfNr, String mail, String disciplin)
     {
         super(navn, foedselsdag, tlfNr, mail);
-        this.medlemID = medlemID;
-        this.oprettelsesDato = oprettelsesDato;
+        this.disciplin = disciplin;
 
     }
 
@@ -25,10 +24,10 @@ public class Medlem extends Person
                 "Fødselsdag "+ foedselsdag + "\n"+
                 "Telefonnr: " + tlfNr + "\n"+
                 "E-mail " + mail + "\n"+
-                "Medlems ID " + medlemID + "\n"+
-                "OprettelsesDato " + oprettelsesDato + "\n";
+                "Disciplin" + disciplin + "\n";
 
     }
 
 
 }
+
