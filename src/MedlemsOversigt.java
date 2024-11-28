@@ -6,6 +6,7 @@ public class MedlemsOversigt
 {
     protected ArrayList<Medlem> medlemmerOversigt = new ArrayList<>();
 
+
     String[] piger =
 
             {
@@ -63,6 +64,8 @@ public class MedlemsOversigt
             return medlemmerOversigt;
     }
 
+
+
     @Override
     public String toString()
     {
@@ -74,5 +77,6 @@ public class MedlemsOversigt
         }
        return sb.toString();
     }
+
 
 }

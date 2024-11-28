@@ -6,6 +6,7 @@ public class Medlem extends Person
 {
     protected int medlemID;
     protected LocalDate oprettelsesDato;
+    protected boolean erAktiv;
 
     public Medlem()
     {}
