@@ -6,6 +6,32 @@ public class MedlemsOversigt
 {
     protected ArrayList<Medlem> medlemmerOversigt = new ArrayList<>();
 
+    String[] piger =
+
+            {
+            "Emma", "Sofia", "Freja", "Ida", "Clara",
+            "Ella", "Anna", "Sofie", "Maja", "Liva",
+            "Laura", "Alma", "Olivia", "Karla", "Agnes",
+            "Josefine", "Lærke", "Marie", "Nora", "Sara"
+            };
+
+    String[] drenge =
+            {
+            "William", "Noah", "Oscar", "Lucas", "Emil",
+            "Victor", "Oliver", "Alfred", "Elias", "Aksel",
+            "Carl", "Malthe", "Felix", "Liam", "Magnus",
+            "August", "Christian", "Mikkel", "Alexander", "Mathias"
+            };
+
+    String[] efternavne =
+            {
+            "Jensen", "Nielsen", "Hansen", "Pedersen", "Andersen",
+            "Christensen", "Larsen", "Sørensen", "Rasmussen", "Jørgensen",
+            "Petersen", "Madsen", "Kristensen", "Olsen", "Thomsen",
+            "Jakobsen", "Møller", "Mortensen", "Jepsen", "Iversen"
+            };
+
+
     public MedlemsOversigt()
     {
         CreateMedlemmerOversigt();
@@ -17,6 +43,8 @@ public class MedlemsOversigt
     {
         Random random = new Random();
 
+
+
         for(int i = 1; i <= 200; i++)
         {
             String navn = "Medlem " + i;
@@ -26,7 +54,7 @@ public class MedlemsOversigt
             LocalDate oprettelsesDato = LocalDate.now().minusDays(random.nextInt(365 * 5));
             int medlemsID = 1000 + i;
 
-            medlemmerOversigt.add(new Medlem(navn, foedselsdag, tlfNr, mail, oprettelsesDato, medlemsID));
+            medlemmerOversigt.add(new Medlem(navn, foedselsdag, tlfNr, mail, medlemsID, oprettelsesDato));
         }
     }
 
@@ -35,11 +63,16 @@ public class MedlemsOversigt
             return medlemmerOversigt;
     }
 
+    @Override
     public String toString()
     {
-        return
-                "Medlemmere: " + "\n" +
-                        medlemmerOversigt.toString();
+       StringBuilder sb = new StringBuilder("Medlemmer: \n\n");
+
+       for(int i = 0; i < medlemmerOversigt.size(); i++)
+        {
+            sb.append(medlemmerOversigt.get(i)).append("\n");
+        }
+       return sb.toString();
     }
 
 }
