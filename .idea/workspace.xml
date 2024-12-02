@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7058e54-36fe-478a-bf6f-81a10dba951c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CprNr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CprNr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Medlem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medlem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MedlemsOversigt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MedlemsOversigt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.GUI.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -64,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732711101821</updated>
-      <workItem from="1732711102758" duration="10007000" />
+      <workItem from="1732711102758" duration="23370000" />
     </task>
     <servers />
   </component>

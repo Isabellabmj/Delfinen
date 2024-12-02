@@ -1,35 +1,85 @@
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-
 public class Medlem extends Person
 {
-    protected int medlemID;
+
     protected LocalDate oprettelsesDato;
-    protected boolean erAktiv;
+    protected int   medlemsId;
+    protected boolean aktivStatus;
+    protected boolean erMotionist;
 
-    public Medlem()
-    {}
-
-    public Medlem(String navn, int foedselsdag, int tlfNr, String mail, int medlemID, LocalDate oprettelsesDato)
+    public Medlem(String navn, CprNr cpr, int telNr,String mail, LocalDate oprettelsesDato, boolean aktivStatus, boolean erMotionist, int medlemsId)
     {
-        super(navn, foedselsdag, tlfNr, mail);
-        this.medlemID = medlemID;
+        super(navn, cpr,telNr, mail);
         this.oprettelsesDato = oprettelsesDato;
+        this.medlemsId = medlemsId;
+        this.aktivStatus = aktivStatus;
+        this.erMotionist = erMotionist;
+    }
+
+
+    public int getMedlemsId()
+    {
+        return medlemsId;
+    }
+
+    public String getMedlemStatus()
+    {
+        if(aktivStatus == true)
+        {
+            return "Aktiv";
+        } else
+        {
+            return "Passiv";
+        }
+    }
+
+    public String getMedlemsType()
+    {
+        if(erMotionist == true)
+        {
+            return "Motionist";
+        }else {
+            return "Konkurrance";
+        }
+
+    }
+
+    public int getAlder()
+    {
+        return cpr.getAlder();
+    }
+
+    public String getAlderKatogori()
+    {
+        int alder = cpr.getAlder();
+        if(alder < 18) {
+            return "Junior";
+        } else {
+            return "Senior";
+        }
 
     }
 
     public String toString()
     {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
-        return "Medlem: "+ navn + "\n"+
-                "Fødselsdag "+ foedselsdag + "\n"+
-                "Telefonnr: " + tlfNr + "\n"+
-                "E-mail " + mail + "\n"+
-                "Medlems ID " + medlemID + "\n"+
-                "OprettelsesDato " + oprettelsesDato + "\n";
+
+        return "Medlem: " + navn + "\n" +
+                "CPR: " + cpr + "\n" +
+                "Alder: " + cpr.getAlder() + "\n" +
+                "Junior/Senior: " + getAlder() + "\n" +
+                "TlfNr: " + tlfNr + "\n" +
+                "Mail: " + mail + "\n" +
+                "Oprettelsesdato: " + oprettelsesDato + "\n" +
+                "Aktiv/Passiv: " + getMedlemStatus() + "\n" +
+                "Motionist/Konkurrance: " + getMedlemsType() + "\n" +
+                "MedlemsId: " + medlemsId + "\n"
+                ;
 
     }
+
 
 
 }
