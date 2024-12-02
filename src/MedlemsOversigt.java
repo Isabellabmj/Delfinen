@@ -25,16 +25,22 @@ public class MedlemsOversigt
         {
 
 
-            String[] drengenavne = {
-                    "Peter", "Søren", "Jens", "Thomas", "Anders", "Frederik", "Christian", "Lars", "Hans", "Ole", "Mikkel", "Jacob", "Benjamin", "Mathias", "Emil", "David", "Victor", "Daniel", "Andreas", "Nicklas", "Simon"
+            String[] pigenavne = {
+                    "Emma", "Sofia", "Ida", "Freja", "Clara",
+                    "Laura", "Maja", "Anna", "Ella", "Nora",
+                    "Karla", "Luna", "Victoria", "Olivia", "Alma"
             };
 
-            String[] pigenavne = {
-                    "Anna", "Maria", "Karin", "Mette", "Emma", "Nina", "Camilla", "Louise", "Sofie", "Helle", "Maja", "Lise", "Line", "Katrine", "Helena", "Sarah", "Julie", "Carina", "Laura", "Hanne", "Cecilie"
+            String[] drengenavne = {
+                    "William", "Noah", "Oliver", "Emil", "Oscar",
+                    "Lucas", "Victor", "Alfred", "Elias", "Carl",
+                    "Aksel", "Malthe", "Alexander", "Magnus", "Felix"
             };
 
             String[] efternavne = {
-                    "Jensen", "Nielsen", "Hansen", "Pedersen", "Andersen", "Christensen", "Sorensen", "Larsen", "Rasmussen", "Madsen", "Poulsen", "Olsen", "Mikkelsen", "Jørgensen", "Kjær", "Johansen", "Berg", "Buch", "Vestergaard", "Knudsen"
+                    "Jensen", "Nielsen", "Hansen", "Pedersen", "Andersen",
+                    "Christensen", "Larsen", "Sørensen", "Rasmussen", "Jørgensen",
+                    "Madsen", "Kristensen", "Poulsen", "Johansen", "Olsen"
             };
 
 

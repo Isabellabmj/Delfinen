@@ -29,7 +29,8 @@ public class Medlem extends Person
         if(aktivStatus == true)
         {
             return "Aktiv";
-        } else
+        }
+        else
         {
             return "Passiv";
         }
@@ -40,8 +41,10 @@ public class Medlem extends Person
         if(erMotionist == true)
         {
             return "Motionist";
-        }else {
-            return "Konkurrance";
+        }
+        else
+        {
+            return "Konkurrence";
         }
 
     }
@@ -51,12 +54,15 @@ public class Medlem extends Person
         return cpr.getAlder();
     }
 
-    public String getAlderKatogori()
+    public String getAlderKategori()
     {
         int alder = cpr.getAlder();
-        if(alder < 18) {
+        if(alder < 18)
+        {
             return "Junior";
-        } else {
+        }
+        else
+        {
             return "Senior";
         }
 
@@ -69,12 +75,12 @@ public class Medlem extends Person
         return "Medlem: " + navn + "\n" +
                 "CPR: " + cpr + "\n" +
                 "Alder: " + cpr.getAlder() + "\n" +
-                "Junior/Senior: " + getAlder() + "\n" +
+                "Junior/Senior: " + getAlderKategori() + "\n" +
                 "TlfNr: " + tlfNr + "\n" +
                 "Mail: " + mail + "\n" +
                 "Oprettelsesdato: " + oprettelsesDato + "\n" +
                 "Aktiv/Passiv: " + getMedlemStatus() + "\n" +
-                "Motionist/Konkurrance: " + getMedlemsType() + "\n" +
+                "Motionist/Konkurrence: " + getMedlemsType() + "\n" +
                 "MedlemsId: " + medlemsId + "\n"
                 ;
 
