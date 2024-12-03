@@ -9,7 +9,7 @@ public class Medlem extends Person
     protected boolean aktivStatus;
     protected boolean erMotionist;
     protected Betalinger betalinger;
-    /*protected boolean erRestance = false;*/
+    protected boolean erRestance = false;
 
     public Medlem(String navn, CprNr cpr, int telNr,String mail, LocalDate oprettelsesDato, boolean aktivStatus, boolean erMotionist, int medlemsId, Betalinger betalinger, boolean erRestance)
     {
@@ -19,8 +19,9 @@ public class Medlem extends Person
         this.aktivStatus = aktivStatus;
         this.erMotionist = erMotionist;
         this.betalinger = betalinger;
-        //this.erRestance = erRestance;
+        this.erRestance = erRestance;
     }
+
 
     public Betalinger getBetalinger()
     {
@@ -80,10 +81,14 @@ public class Medlem extends Person
     {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
 
-       // int betaling;
-        //if(erRestance = true)
+       int betaling;
+        if(erRestance = true)
         {
-          //  betaling = betalinger.udregnRestance(this)
+            betaling = betalinger.udregnRestance(this);
+        }
+        else
+        {
+            betaling = betalinger.udregnBetalinger(this);
         }
 
         return "Medlem: " + navn + "\n" +
@@ -96,8 +101,8 @@ public class Medlem extends Person
                 "Aktiv/Passiv: " + getMedlemStatus() + "\n" +
                 "Motionist/Konkurrence: " + getMedlemsType() + "\n" +
                 "Betalinger: " + betalinger.udregnBetalinger(this) + " DKK" + "\n" +
-                "MedlemsId: " + medlemsId + "\n"
-                ;
+                "MedlemsId: " + medlemsId + "\n" +
+                "Årligt medlems kontingent: " + betalinger.udregnBetalinger(this) + " DKK" + "\n";
 
     }
 
