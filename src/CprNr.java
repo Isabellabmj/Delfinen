@@ -75,7 +75,7 @@ public class CprNr
 
         } else if (centuryIndicator == '4' || centuryIndicator == '5')
         {
-            aarhundrede = 1800;  // Default to 1900s for normal 2/5/6 indicators
+            aarhundrede = 1800;
         } else
         {
             aarhundrede = 2000;
@@ -83,17 +83,17 @@ public class CprNr
 
         int year = aarhundrede + yearPart;
 
-        // Correct the century if age is below 10 or above 100
+
         int currentYear = LocalDate.now().getYear();
         int age = currentYear - year;
 
-        // Adjust the year based on the age
+
         if (age < 10)
         {
-            year -= 100;  // If under 10, the year should be from the previous century
+            year -= 100;
         } else if (age > 100)
         {
-            year += 100;  // If over 100, the year should be from the next century
+            year += 100;
         }
 
         return year;
@@ -159,19 +159,19 @@ public class CprNr
         Random random = new Random();
 
 
-        int day = 1 + random.nextInt(28);  // Random day between 1 and 28 (to avoid invalid dates)
-        int month = 1 + random.nextInt(12);  // Random month between 1 and 12
-        int year = 1920 + random.nextInt(110);  // Random year between 1900 and 1999
+        int day = 1 + random.nextInt(28);
+        int month = 1 + random.nextInt(12);
+        int year = 1920 + random.nextInt(110);
         String birthDate = String.format("%02d%02d%02d", day, month, year % 100);
 
-        // Generate random 4-digit number (XXXX)
-        int genderPart = random.nextInt(10000);  // Random number between 0000 and 9999
+
+        int genderPart = random.nextInt(10000);
         String genderDigit = String.format("%04d", genderPart);
 
-        // Combine the birthdate and gender part to form the CPR number
+
         String cprNumber = birthDate + "-" + genderDigit;
 
-        // Validate and return the valid CPR number
+
 
         return cprNumber;
 

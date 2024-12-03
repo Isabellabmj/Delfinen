@@ -18,7 +18,7 @@ public class RestancePersistens
 
     public void writeRestancePersistens()
     {
-        File restancePersistens = new File("/Users/peytonhunter/Library/CloudStorage/OneDrive-Personal/Documents/Datamatiker/1 Semester/Programmering/InteliJ/Delfinen/src/restancePersistens.txt");
+        File restancePersistens = new File("C:/Users/isabe/OneDrive/IJ/Delfinen/src/restancePersistens.txt");
 
         try (FileWriter writer = new FileWriter(restancePersistens, false))
         {

@@ -107,7 +107,7 @@ public class Medlem extends Person
 
         if (erRestance == true)
         {
-            result += "Restance og skylder " + (betaling) + "DKK " + "\n";
+            result += "Restance og skylder " + (betaling) + " DKK" + "\n";
         }
         return result;
 

@@ -18,24 +18,24 @@ public class Betalinger
 
         if (medlem.getMedlemStatus().equalsIgnoreCase("Aktiv"))
         {
-            // For active members, determine the membership fee based on age
+
             int alder = medlem.getAlder();
             if (medlem.getAlderKategori().equalsIgnoreCase("Junior"))
             {
-                medlemsKontingent = 1000;  // Junior membership fee
+                medlemsKontingent = 1000;
             } else if (alder >= 60)
             {
-                medlemsKontingent = (int) (1600 * 0.75);  // 25% discount for seniors over 60
+                medlemsKontingent = (int) (1600 * 0.75);
             } else
             {
-                medlemsKontingent = 1600;  // Regular senior fee
+                medlemsKontingent = 1600;
             }
         } else
         {
-            medlemsKontingent = 500;  // Passive members pay a smaller fee
+            medlemsKontingent = 500;
         }
 
-        return medlemsKontingent;  // Apply discount
+        return medlemsKontingent;
     }
 
     public boolean getBetalt()
@@ -43,10 +43,6 @@ public class Betalinger
         return restance;
     }
 
-    /*public Restance getRestance()
-    {
-        return restance;
-    }*/
 
     public int udregnRestance(Medlem medlem)
     {
@@ -54,24 +50,24 @@ public class Betalinger
 
         if (medlem.getMedlemStatus().equalsIgnoreCase("Aktiv"))
     {
-        // For active members, determine the membership fee based on age
+
         int alder = medlem.getAlder();
         if (medlem.getAlderKategori().equalsIgnoreCase("Junior"))
         {
-            medlemsKontingent = -1000;  // Junior membership fee
+            medlemsKontingent = -1000;
         } else if (alder >= 60)
         {
-            medlemsKontingent = (int) (1600 * 0.75);  // 25% discount for seniors over 60
+            medlemsKontingent = (int) (1600 * 0.75);
         } else
         {
-            medlemsKontingent = -1600;  // Regular senior fee
+            medlemsKontingent = -1600;
         }
     } else
     {
-        medlemsKontingent = -500;  // Passive members pay a smaller fee
+        medlemsKontingent = -500;
     }
 
-        return medlemsKontingent;  // Apply discount
+        return medlemsKontingent;
 }
 
 }
