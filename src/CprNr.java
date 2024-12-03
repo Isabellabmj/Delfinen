@@ -69,13 +69,17 @@ public class CprNr
 
         int aarhundrede;
 
-        if (centuryIndicator >= '0' && centuryIndicator <= '3') {
+        if (centuryIndicator >= '0' && centuryIndicator <= '3')
+        {
             aarhundrede = 1900;
-        } else if ((centuryIndicator == '4' || centuryIndicator == '9') && yearPart <= LocalDate.now().getYear() % 100) {
+        } else if ((centuryIndicator == '4' || centuryIndicator == '9') && yearPart <= LocalDate.now().getYear() % 100)
+        {
             aarhundrede = 2000;  // Når vi er efter år 2000
-        } else if (centuryIndicator == '2' || centuryIndicator == '5' || centuryIndicator == '6') {
+        } else if (centuryIndicator == '2' || centuryIndicator == '5' || centuryIndicator == '6')
+        {
             aarhundrede = 1900;  // Default to 1900s for normal 2/5/6 indicators
-        } else {
+        } else
+        {
             aarhundrede = 1800;
         }
 
@@ -86,9 +90,11 @@ public class CprNr
         int age = currentYear - year;
 
         // Adjust the year based on the age
-        if (age < 10) {
+        if (age < 10)
+        {
             year -= 100;  // If under 10, the year should be from the previous century
-        } else if (age > 100) {
+        } else if (age > 100)
+        {
             year += 100;  // If over 100, the year should be from the next century
         }
 

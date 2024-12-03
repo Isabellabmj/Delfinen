@@ -26,7 +26,7 @@ public abstract class Person
         return cpr;
     }
 
-    public int getTelNr()
+    public int getTlfNr()
     {
         return tlfNr;
     }
