@@ -82,7 +82,7 @@ public class Medlem extends Person
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
 
        int betaling;
-        if(erRestance = true)
+        if(erRestance == true)
         {
             betaling = betalinger.udregnRestance(this);
         }
@@ -91,7 +91,8 @@ public class Medlem extends Person
             betaling = betalinger.udregnBetalinger(this);
         }
 
-        return "Medlem: " + navn + "\n" +
+
+        String result = "Medlem: " + navn + "\n" +
                 "CPR: " + cpr + "\n" +
                 "Alder: " + cpr.getAlder() + "\n" +
                 "Junior/Senior: " + getAlderKategori() + "\n" +
@@ -103,6 +104,12 @@ public class Medlem extends Person
                 "Betalinger: " + betalinger.udregnBetalinger(this) + " DKK" + "\n" +
                 "MedlemsId: " + medlemsId + "\n" +
                 "Årligt medlems kontingent: " + betalinger.udregnBetalinger(this) + " DKK" + "\n";
+
+        if (erRestance == true)
+        {
+            result += "Restance og skylder " + (betaling) + "DKK " + "\n";
+        }
+        return result;
 
     }
 

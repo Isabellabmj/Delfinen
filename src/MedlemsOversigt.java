@@ -7,10 +7,13 @@ public class MedlemsOversigt
 {
 
     protected ArrayList<Medlem> medlemmerOversigt = new ArrayList<>();
+    protected Restance restance;
 
 
     public MedlemsOversigt()
     {
+        this.medlemmerOversigt = new ArrayList<>();
+        this.restance = new Restance();
         createMedlemmereOversigt();
     }
 
@@ -47,7 +50,7 @@ public class MedlemsOversigt
             int lastDigit = cpr.getGender();
             boolean erUlige = (lastDigit % 2 != 0);
             String fornavn;
-            //boolean erDreng = random.nextBoolean();
+
 
             if (erUlige)
             {
@@ -67,8 +70,9 @@ public class MedlemsOversigt
             boolean erAktiv = random.nextBoolean();
             boolean erMotionist = random.nextBoolean();
             int medlemsId = 1000 + i;
+            boolean restance = random.nextBoolean();
 
-            medlemmerOversigt.add(new Medlem(navn, cpr, tlfNr, mail, oprettelsesDato, erAktiv, erMotionist, medlemsId, new Betalinger(),true));
+            medlemmerOversigt.add(new Medlem(navn, cpr, tlfNr, mail, oprettelsesDato, erAktiv, erMotionist, medlemsId, new Betalinger(),restance));
         }
     }
 
@@ -88,6 +92,23 @@ public class MedlemsOversigt
         return medlemmerOversigt.size();
     }
 
+    public Restance getRestance()
+    {
+        return restance;
+    }
+
+    public void addAlleMedlemmeretoRestanceList()
+    {
+        for (int i = 0; i < medlemmerOversigt.size(); i++)
+        {
+            Medlem m = medlemmerOversigt.get(i);  // Get the Medlem at index i
+            if (m.erRestance)
+            {
+                restance.addMedlemTilRestanceliste(m);
+                System.out.println("Added to RestanceListe: " + m.getNavn());
+            }
+        }
+    }
 
 
 
