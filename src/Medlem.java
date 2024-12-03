@@ -20,6 +20,10 @@ public class Medlem extends Person
         this.betalinger = betalinger;
     }
 
+    public Betalinger getBetalinger()
+    {
+        return betalinger;
+    }
 
     public int getMedlemsId()
     {
