@@ -24,6 +24,7 @@ public class MedlemsOversigt
         for (int i = 1; i <= 250; i++)
         {
 
+            CprNr cpr = new CprNr(true);
 
             String[] pigenavne = {
                     "Emma", "Sofia", "Ida", "Freja", "Clara",
@@ -43,11 +44,12 @@ public class MedlemsOversigt
                     "Madsen", "Kristensen", "Poulsen", "Johansen", "Olsen"
             };
 
-
+            int lastDigit = cpr.getGender();
+            boolean erUlige = (lastDigit % 2 != 0);
             String fornavn;
-            boolean erDreng = random.nextBoolean();
+            //boolean erDreng = random.nextBoolean();
 
-            if (erDreng == true)
+            if (erUlige)
             {
                 fornavn = drengenavne[random.nextInt(drengenavne.length)];
             } else
@@ -58,7 +60,7 @@ public class MedlemsOversigt
             String navn = fornavn + " " + efternavn;
 
 
-            CprNr cpr = new CprNr(true);
+
             int tlfNr = 10000000 + random.nextInt(90000000);
             String mail = fornavn.toLowerCase() + random.nextInt(22222) +"@gmail.com";
             LocalDate oprettelsesDato = LocalDate.now().minusDays(random.nextInt(365 * 5));

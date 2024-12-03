@@ -115,18 +115,12 @@ public class CprNr
 
 
 
-    public boolean erMand()
+    public int getGender()
     {
-        if (Integer.parseInt(nummeret.substring(9,10)) % 2 !=0)
-            return true;
-        return false;
-    }
-
-    public boolean erKvinde()
-    {
-        return !erMand();
+        return Integer.parseInt(nummeret.substring(9));
 
     }
+
 
     public boolean isValid()
     {
