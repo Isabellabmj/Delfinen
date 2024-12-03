@@ -45,7 +45,7 @@ public class RestancePersistens
                         m.getCpr(),
                         m.getAlder(),
                         m.getMedlemStatus(),
-                        betalinger.udregnRestance(m)  // Calculate the arrears for the member
+                        betalinger.udregnRestance(m)
                 ));
 
                 writer.append(System.lineSeparator());
