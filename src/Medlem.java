@@ -9,8 +9,9 @@ public class Medlem extends Person
     protected boolean aktivStatus;
     protected boolean erMotionist;
     protected Betalinger betalinger;
+    /*protected boolean erRestance = false;*/
 
-    public Medlem(String navn, CprNr cpr, int telNr,String mail, LocalDate oprettelsesDato, boolean aktivStatus, boolean erMotionist, int medlemsId, Betalinger betalinger)
+    public Medlem(String navn, CprNr cpr, int telNr,String mail, LocalDate oprettelsesDato, boolean aktivStatus, boolean erMotionist, int medlemsId, Betalinger betalinger, boolean erRestance)
     {
         super(navn, cpr,telNr, mail);
         this.oprettelsesDato = oprettelsesDato;
@@ -18,6 +19,7 @@ public class Medlem extends Person
         this.aktivStatus = aktivStatus;
         this.erMotionist = erMotionist;
         this.betalinger = betalinger;
+        //this.erRestance = erRestance;
     }
 
     public Betalinger getBetalinger()
@@ -77,6 +79,12 @@ public class Medlem extends Person
     public String toString()
     {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
+
+       // int betaling;
+        //if(erRestance = true)
+        {
+          //  betaling = betalinger.udregnRestance(this)
+        }
 
         return "Medlem: " + navn + "\n" +
                 "CPR: " + cpr + "\n" +

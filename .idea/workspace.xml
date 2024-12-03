@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7058e54-36fe-478a-bf6f-81a10dba951c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Betalinger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Betalinger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CprNr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CprNr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Medlem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medlem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Restance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Restance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MedlemsOversigt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MedlemsOversigt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1732711101821</updated>
       <workItem from="1732711102758" duration="35081000" />
-      <workItem from="1733211476958" duration="7082000" />
+      <workItem from="1733211476958" duration="8916000" />
     </task>
     <servers />
   </component>

@@ -66,7 +66,7 @@ public class MedlemsOversigt
             boolean erMotionist = random.nextBoolean();
             int medlemsId = 1000 + i;
 
-            medlemmerOversigt.add(new Medlem(navn, cpr, tlfNr, mail, oprettelsesDato, erAktiv, erMotionist, medlemsId, new Betalinger()));
+            medlemmerOversigt.add(new Medlem(navn, cpr, tlfNr, mail, oprettelsesDato, erAktiv, erMotionist, medlemsId, new Betalinger(),true));
         }
     }
 

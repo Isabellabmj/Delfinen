@@ -72,15 +72,13 @@ public class CprNr
         if (centuryIndicator >= '0' && centuryIndicator <= '3')
         {
             aarhundrede = 1900;
-        } else if ((centuryIndicator == '4' || centuryIndicator == '9') && yearPart <= LocalDate.now().getYear() % 100)
+
+        } else if (centuryIndicator == '4' || centuryIndicator == '5')
         {
-            aarhundrede = 2000;  // Når vi er efter år 2000
-        } else if (centuryIndicator == '2' || centuryIndicator == '5' || centuryIndicator == '6')
-        {
-            aarhundrede = 1900;  // Default to 1900s for normal 2/5/6 indicators
+            aarhundrede = 1800;  // Default to 1900s for normal 2/5/6 indicators
         } else
         {
-            aarhundrede = 1800;
+            aarhundrede = 2000;
         }
 
         int year = aarhundrede + yearPart;
