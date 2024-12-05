@@ -107,7 +107,7 @@ public class Tilmelding
         Tilmelding nyTilmelding = new Tilmelding();
         nyTilmelding.start();
     }
-
+        //mangler at få tildelt et bruger ID og at blive tilføjet til tekstfilen
 
 }
 
