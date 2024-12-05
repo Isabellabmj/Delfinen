@@ -69,7 +69,7 @@ public class GUI extends JFrame {
         // Add fields to the panel
         addMemberPanel.add(new JLabel("Navn:"));
         addMemberPanel.add(navnField);
-        addMemberPanel.add(new JLabel("CPR:"));
+        addMemberPanel.add(new JLabel("CprNR:"));
         addMemberPanel.add(cprField);
         addMemberPanel.add(new JLabel("Tlf Nr:"));
         addMemberPanel.add(tlfNrField);

@@ -2428,3 +2428,93 @@ Aktivstatus: Aktiv
 MedlemsType: Konkurrence
 Dato for skrivning: 05/12/2024 Tid: 11:56
 
+Navn: Nora Jensen
+Email: nora20869@gmail.com
+TelefonNr: 85986780
+Oprettelsesdato: 04/08/2024
+MedlemsId: 1001
+Aktivstatus: Aktiv
+MedlemsType: Motionist
+Dato for skrivning: 05/12/2024 Tid: 13:17
+
+Navn: Maja Sørensen
+Email: maja11280@gmail.com
+TelefonNr: 88416395
+Oprettelsesdato: 05/02/2021
+MedlemsId: 1002
+Aktivstatus: Passiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 13:17
+
+Navn: Aksel Johansen
+Email: aksel1629@gmail.com
+TelefonNr: 93899510
+Oprettelsesdato: 18/11/2024
+MedlemsId: 1003
+Aktivstatus: Passiv
+MedlemsType: Motionist
+Dato for skrivning: 05/12/2024 Tid: 13:17
+
+Navn: Ella Larsen
+Email: ella2914@gmail.com
+TelefonNr: 90694892
+Oprettelsesdato: 16/05/2020
+MedlemsId: 1004
+Aktivstatus: Aktiv
+MedlemsType: Motionist
+Dato for skrivning: 05/12/2024 Tid: 13:17
+
+Navn: Olivia Poulsen
+Email: olivia6458@gmail.com
+TelefonNr: 80138860
+Oprettelsesdato: 15/08/2024
+MedlemsId: 1005
+Aktivstatus: Aktiv
+MedlemsType: Motionist
+Dato for skrivning: 05/12/2024 Tid: 13:17
+
+Navn: Elias Poulsen
+Email: elias10627@gmail.com
+TelefonNr: 70875498
+Oprettelsesdato: 10/03/2022
+MedlemsId: 1006
+Aktivstatus: Passiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 13:17
+
+Navn: William Christensen
+Email: william1131@gmail.com
+TelefonNr: 36664456
+Oprettelsesdato: 31/01/2023
+MedlemsId: 1007
+Aktivstatus: Aktiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 13:17
+
+Navn: Noah Olsen
+Email: noah6462@gmail.com
+TelefonNr: 96835805
+Oprettelsesdato: 21/06/2022
+MedlemsId: 1008
+Aktivstatus: Passiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 13:17
+
+Navn: Lucas Poulsen
+Email: lucas16302@gmail.com
+TelefonNr: 24739121
+Oprettelsesdato: 05/02/2022
+MedlemsId: 1009
+Aktivstatus: Aktiv
+MedlemsType: Motionist
+Dato for skrivning: 05/12/2024 Tid: 13:17
+
+Navn: Emma Poulsen
+Email: emma14083@gmail.com
+TelefonNr: 51891390
+Oprettelsesdato: 26/11/2024
+MedlemsId: 1010
+Aktivstatus: Passiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 13:17
+
