@@ -1,0 +1,22 @@
+LISTE OVER TRÆNERE
+
+Trainer@2d8e6db6Diciplin: Butterfly
+
+Trainer@4534b60dDiciplin: Freestyle
+
+Trainer@3fa77460Diciplin: Brystsvømning
+
+Trainer@619a5dffDiciplin: Svømning
+
+Trainer@1ed6993aDiciplin: Brystsvømning
+
+Trainer@7e32c033Diciplin: Butterfly
+
+Trainer@7ab2bfe1Diciplin: Freestyle
+
+Trainer@497470edDiciplin: Butterfly
+
+Trainer@63c12fb0Diciplin: Svømning
+
+Trainer@b1a58a3Diciplin: Rygcrawl
+

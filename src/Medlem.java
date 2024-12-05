@@ -11,9 +11,9 @@ public class Medlem extends Person
     protected Betalinger betalinger;
     protected boolean erRestance = false;
 
-    public Medlem(String navn, CprNr cpr, int telNr,String mail, LocalDate oprettelsesDato, boolean aktivStatus, boolean erMotionist, int medlemsId, Betalinger betalinger, boolean erRestance)
+    public Medlem(String navn, CprNr cpr, int tllNr,String mail, LocalDate oprettelsesDato, boolean aktivStatus, boolean erMotionist, int medlemsId, Betalinger betalinger, boolean erRestance)
     {
-        super(navn, cpr,telNr, mail);
+        super(navn, cpr,tllNr, mail);
         this.oprettelsesDato = oprettelsesDato;
         this.medlemsId = medlemsId;
         this.aktivStatus = aktivStatus;
@@ -75,6 +75,12 @@ public class Medlem extends Person
             return "Senior";
         }
 
+
+    }
+
+    public LocalDate getOprettelsesDato()
+    {
+        return oprettelsesDato;
     }
 
     public String toString()

@@ -22,6 +22,15 @@ public class Main
 
         // public Medlem(String navn, CPR cpr, int telNr, String mail, LocalDate oprettelsesDato, boolean aktivStatus, boolean erMotionist, int medlemsId, Betalinger betalinger, boolean erRestance)
 
+        // Opret Traener-oversigt
+        TrainerOversigt traenerOversigt = new TrainerOversigt();
+
+        // Opret TraenerPersistens objekt og skriv trænere til fil
+        TrainerPersistens traenerPersistens = new TrainerPersistens(traenerOversigt.getTraenerListe());
+        traenerPersistens.writeTraenerToFile();
+
+        MedlemmerPersistens medlemsPersistens = new MedlemmerPersistens();
+        medlemsPersistens.writeMedlemmerPersistens(medlemsOversigt.getMedlemmerOversigt());
 
 
     }

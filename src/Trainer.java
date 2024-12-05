@@ -1,34 +1,18 @@
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
+public class Trainer extends Person {
+    protected String diciplin;
 
-public class Trainer extends Person
-{
-
-
-    protected String disciplin;
-
-    public Trainer(String navn, CprNr cpr, int telNr, String mail, String diciplin)
-    {
-        super(navn, cpr,telNr, mail);
-        this.disciplin = diciplin;
-
+    public Trainer(String navn, CprNr cpr, int telNr, String mail, String diciplin) {
+        super(navn, cpr, telNr, mail);
+        this.diciplin = diciplin;
     }
 
-
-
-    public String toString()
+    public String getDiciplin()
     {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
-
-        return "Medlem: " + navn + "\n" +
-                "Fødselsdag: " + cpr + "\n" +
-                "TlfNr: " + tlfNr + "\n" +
-                "Mail: " + mail + "\n" +
-                "Diciplin: " + disciplin + "\n"
-                ;
-
+        return this.diciplin;
     }
 
-
-
+    @Override
+    public String toString() {
+        return super.toString() + "Diciplin: " + diciplin + "\n";
+    }
 }
