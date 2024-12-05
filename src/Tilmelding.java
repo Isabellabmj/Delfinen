@@ -49,6 +49,7 @@ public class Tilmelding
     private void opretMedlem()
     {
         System.out.println("Indtast navn");
+        scanner.nextLine();
         String navn = scanner.nextLine();
 
         System.out.println("Indtast Cpr-nummer (ddmmyy-xxxx");
@@ -66,9 +67,11 @@ public class Tilmelding
 
         System.out.println("er medlem aktiv? (true/false?)");
         boolean aktivStatus = scanner.nextBoolean();
+        scanner.nextLine();
 
         System.out.println("Er medlem motionist? (true/false?)");
         boolean erMotionist = scanner.nextBoolean();
+        scanner.nextLine();
 
         Betalinger betalinger = new Betalinger();
 
