@@ -10,7 +10,7 @@ public class MedlemmerPersistens {
 
     public void writeMedlemmerPersistens(ArrayList<Medlem> medlemmereOversigt) {
         // Filplacering
-        File medlemsListe = new File("C:/Users/isabe/OneDrive/IJ/Delfinen/src/MedlsemsOversigt.txt");
+        File medlemsListe = new File("C:/Users/isabe/OneDrive/IJ/Delfinen/src/MedlemsOversigt.txt");
 
         DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         DateTimeFormatter timeFormatter = DateTimeFormatter.ofPattern("HH:mm");  // Korrekt tidsformat
