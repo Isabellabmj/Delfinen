@@ -2518,3 +2518,93 @@ Aktivstatus: Passiv
 MedlemsType: Konkurrence
 Dato for skrivning: 05/12/2024 Tid: 13:17
 
+Navn: Freja Madsen
+Email: freja5124@gmail.com
+TelefonNr: 68594009
+Oprettelsesdato: 19/04/2021
+MedlemsId: 1001
+Aktivstatus: Aktiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 17:37
+
+Navn: Freja Madsen
+Email: freja4709@gmail.com
+TelefonNr: 76565094
+Oprettelsesdato: 25/08/2024
+MedlemsId: 1002
+Aktivstatus: Passiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 17:37
+
+Navn: Luna Jørgensen
+Email: luna6178@gmail.com
+TelefonNr: 97172619
+Oprettelsesdato: 11/06/2024
+MedlemsId: 1003
+Aktivstatus: Aktiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 17:37
+
+Navn: Ida Jørgensen
+Email: ida9397@gmail.com
+TelefonNr: 43434425
+Oprettelsesdato: 21/05/2020
+MedlemsId: 1004
+Aktivstatus: Passiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 17:37
+
+Navn: Lucas Johansen
+Email: lucas7904@gmail.com
+TelefonNr: 39713798
+Oprettelsesdato: 06/07/2023
+MedlemsId: 1005
+Aktivstatus: Passiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 17:37
+
+Navn: Freja Johansen
+Email: freja3823@gmail.com
+TelefonNr: 23116180
+Oprettelsesdato: 26/05/2024
+MedlemsId: 1006
+Aktivstatus: Aktiv
+MedlemsType: Motionist
+Dato for skrivning: 05/12/2024 Tid: 17:37
+
+Navn: Victoria Larsen
+Email: victoria9845@gmail.com
+TelefonNr: 22524620
+Oprettelsesdato: 21/12/2022
+MedlemsId: 1007
+Aktivstatus: Passiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 17:37
+
+Navn: Clara Johansen
+Email: clara4746@gmail.com
+TelefonNr: 22160292
+Oprettelsesdato: 01/03/2021
+MedlemsId: 1008
+Aktivstatus: Passiv
+MedlemsType: Motionist
+Dato for skrivning: 05/12/2024 Tid: 17:37
+
+Navn: Nora Sørensen
+Email: nora5905@gmail.com
+TelefonNr: 68859227
+Oprettelsesdato: 17/03/2021
+MedlemsId: 1009
+Aktivstatus: Aktiv
+MedlemsType: Motionist
+Dato for skrivning: 05/12/2024 Tid: 17:37
+
+Navn: William Nielsen
+Email: william8880@gmail.com
+TelefonNr: 97055034
+Oprettelsesdato: 21/02/2022
+MedlemsId: 1010
+Aktivstatus: Passiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 17:37
+

@@ -1,30 +1,30 @@
 LISTE OVER MEDLEMMERE I RESTANCE 
 
-Medlem: Ella Larsen
-CPR: 090901-4538
-Alder: 23
+Medlem: Freja Madsen
+CPR: 040483-9532
+Alder: 41
 Aktiv/Passiv: Aktiv
 Skylder: -1600 DKK
 
 
-Medlem: Elias Poulsen
-CPR: 081280-9595
-Alder: 43
+Medlem: Freja Madsen
+CPR: 201223-3698
+Alder: 100
 Aktiv/Passiv: Passiv
 Skylder: -500 DKK
 
 
-Medlem: William Christensen
-CPR: 070857-4817
-Alder: 67
-Aktiv/Passiv: Aktiv
-Skylder: 1200 DKK
+Medlem: Lucas Johansen
+CPR: 091045-5193
+Alder: 79
+Aktiv/Passiv: Passiv
+Skylder: -500 DKK
 
 
-Medlem: Lucas Poulsen
-CPR: 210286-0687
-Alder: 38
-Aktiv/Passiv: Aktiv
-Skylder: -1600 DKK
+Medlem: Victoria Larsen
+CPR: 080347-2040
+Alder: 77
+Aktiv/Passiv: Passiv
+Skylder: -500 DKK
 
 
