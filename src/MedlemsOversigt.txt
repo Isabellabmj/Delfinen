@@ -2248,3 +2248,93 @@ Aktivstatus: Passiv
 MedlemsType: Motionist
 Dato for skrivning: 05/12/2024 Tid: 09:55
 
+Navn: Clara Poulsen
+Email: clara4745@gmail.com
+TelefonNr: 84250943
+Oprettelsesdato: 20/07/2022
+MedlemsId: 1001
+Aktivstatus: Passiv
+MedlemsType: Motionist
+Dato for skrivning: 05/12/2024 Tid: 09:57
+
+Navn: Malthe Rasmussen
+Email: malthe9958@gmail.com
+TelefonNr: 65284477
+Oprettelsesdato: 12/08/2020
+MedlemsId: 1002
+Aktivstatus: Aktiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 09:57
+
+Navn: Carl Pedersen
+Email: carl20303@gmail.com
+TelefonNr: 11246228
+Oprettelsesdato: 08/03/2022
+MedlemsId: 1003
+Aktivstatus: Passiv
+MedlemsType: Motionist
+Dato for skrivning: 05/12/2024 Tid: 09:57
+
+Navn: Nora Jørgensen
+Email: nora4493@gmail.com
+TelefonNr: 47918951
+Oprettelsesdato: 31/10/2022
+MedlemsId: 1004
+Aktivstatus: Passiv
+MedlemsType: Motionist
+Dato for skrivning: 05/12/2024 Tid: 09:57
+
+Navn: Oliver Poulsen
+Email: oliver12118@gmail.com
+TelefonNr: 31411370
+Oprettelsesdato: 04/02/2022
+MedlemsId: 1005
+Aktivstatus: Aktiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 09:57
+
+Navn: Alexander Poulsen
+Email: alexander10468@gmail.com
+TelefonNr: 86727077
+Oprettelsesdato: 07/04/2022
+MedlemsId: 1006
+Aktivstatus: Passiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 09:57
+
+Navn: Emma Andersen
+Email: emma19637@gmail.com
+TelefonNr: 82502513
+Oprettelsesdato: 17/09/2023
+MedlemsId: 1007
+Aktivstatus: Passiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 09:57
+
+Navn: Emil Madsen
+Email: emil1045@gmail.com
+TelefonNr: 11709880
+Oprettelsesdato: 09/11/2023
+MedlemsId: 1008
+Aktivstatus: Passiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 09:57
+
+Navn: Ida Larsen
+Email: ida3510@gmail.com
+TelefonNr: 36227576
+Oprettelsesdato: 14/07/2021
+MedlemsId: 1009
+Aktivstatus: Aktiv
+MedlemsType: Motionist
+Dato for skrivning: 05/12/2024 Tid: 09:57
+
+Navn: Elias Jørgensen
+Email: elias20844@gmail.com
+TelefonNr: 15160513
+Oprettelsesdato: 27/02/2020
+MedlemsId: 1010
+Aktivstatus: Passiv
+MedlemsType: Motionist
+Dato for skrivning: 05/12/2024 Tid: 09:57
+

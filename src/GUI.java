@@ -98,16 +98,7 @@ public class GUI extends JFrame {
                 boolean motionist = motionistButton.isSelected();
 
                 // Add new member with provided CPR
-                Medlem newMedlem = new Medlem(
-                        navn,
-                        new CprNr(cprNumber), // Assuming CPR constructor can handle a string input
-                        tlfNr,
-                        mail,
-                        LocalDate.now(),
-                        aktiv,
-                        motionist,
-                        medlemsOversigt.getAntalMedlemmere() + 1
-                );
+                Medlem newMedlem = new Medlem()
 
                 // Add member to the list
                 medlemsOversigt.addMedlemmerToMedlemmerOversigt(newMedlem);
@@ -168,3 +159,4 @@ public class GUI extends JFrame {
         });
     }
 }*/
+
