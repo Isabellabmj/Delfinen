@@ -2338,3 +2338,93 @@ Aktivstatus: Passiv
 MedlemsType: Motionist
 Dato for skrivning: 05/12/2024 Tid: 09:57
 
+Navn: Emil Kristensen
+Email: emil8831@gmail.com
+TelefonNr: 31780475
+Oprettelsesdato: 07/02/2024
+MedlemsId: 1001
+Aktivstatus: Passiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 11:56
+
+Navn: Carl Christensen
+Email: carl10636@gmail.com
+TelefonNr: 99479028
+Oprettelsesdato: 10/07/2024
+MedlemsId: 1002
+Aktivstatus: Aktiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 11:56
+
+Navn: Anna Larsen
+Email: anna11939@gmail.com
+TelefonNr: 81570598
+Oprettelsesdato: 13/12/2023
+MedlemsId: 1003
+Aktivstatus: Aktiv
+MedlemsType: Motionist
+Dato for skrivning: 05/12/2024 Tid: 11:56
+
+Navn: Alexander Jørgensen
+Email: alexander18160@gmail.com
+TelefonNr: 69890977
+Oprettelsesdato: 10/11/2021
+MedlemsId: 1004
+Aktivstatus: Aktiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 11:56
+
+Navn: Carl Pedersen
+Email: carl2563@gmail.com
+TelefonNr: 92976068
+Oprettelsesdato: 22/10/2024
+MedlemsId: 1005
+Aktivstatus: Aktiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 11:56
+
+Navn: Luna Jørgensen
+Email: luna17885@gmail.com
+TelefonNr: 97200643
+Oprettelsesdato: 24/11/2023
+MedlemsId: 1006
+Aktivstatus: Passiv
+MedlemsType: Motionist
+Dato for skrivning: 05/12/2024 Tid: 11:56
+
+Navn: Magnus Madsen
+Email: magnus12190@gmail.com
+TelefonNr: 44643363
+Oprettelsesdato: 04/11/2022
+MedlemsId: 1007
+Aktivstatus: Passiv
+MedlemsType: Motionist
+Dato for skrivning: 05/12/2024 Tid: 11:56
+
+Navn: William Sørensen
+Email: william9345@gmail.com
+TelefonNr: 17287676
+Oprettelsesdato: 04/04/2024
+MedlemsId: 1008
+Aktivstatus: Passiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 11:56
+
+Navn: Magnus Andersen
+Email: magnus14419@gmail.com
+TelefonNr: 75738806
+Oprettelsesdato: 01/02/2023
+MedlemsId: 1009
+Aktivstatus: Aktiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 11:56
+
+Navn: Noah Larsen
+Email: noah35@gmail.com
+TelefonNr: 42230412
+Oprettelsesdato: 19/11/2022
+MedlemsId: 1010
+Aktivstatus: Aktiv
+MedlemsType: Konkurrence
+Dato for skrivning: 05/12/2024 Tid: 11:56
+

@@ -30,4 +30,5 @@ public class TestKontingentBeregner {
         int resultat = KontingentBeregning.beregnKontingen(true, 65);
         assertEquals(1200, resultat);
     }
+
 }

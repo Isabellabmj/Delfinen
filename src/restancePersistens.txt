@@ -1,37 +1,37 @@
 LISTE OVER MEDLEMMERE I RESTANCE 
 
-Medlem: Malthe Rasmussen
-CPR: 051258-2555
-Alder: 66
-Aktiv/Passiv: Aktiv
-Skylder: 1200 DKK
-
-
-Medlem: Nora Jørgensen
-CPR: 020748-1594
-Alder: 76
+Medlem: Emil Kristensen
+CPR: 210330-6881
+Alder: 94
 Aktiv/Passiv: Passiv
 Skylder: -500 DKK
 
 
-Medlem: Oliver Poulsen
-CPR: 081017-6123
-Alder: 107
-Aktiv/Passiv: Aktiv
-Skylder: 1200 DKK
-
-
-Medlem: Ida Larsen
-CPR: 130985-3214
-Alder: 39
+Medlem: Alexander Jørgensen
+CPR: 241000-3157
+Alder: 24
 Aktiv/Passiv: Aktiv
 Skylder: -1600 DKK
 
 
-Medlem: Elias Jørgensen
-CPR: 270966-4827
-Alder: 58
+Medlem: Carl Pedersen
+CPR: 130645-9639
+Alder: 79
+Aktiv/Passiv: Aktiv
+Skylder: 1200 DKK
+
+
+Medlem: Luna Jørgensen
+CPR: 120172-9682
+Alder: 52
 Aktiv/Passiv: Passiv
 Skylder: -500 DKK
+
+
+Medlem: Magnus Andersen
+CPR: 221014-9077
+Alder: 10
+Aktiv/Passiv: Aktiv
+Skylder: -1000 DKK
 
 
