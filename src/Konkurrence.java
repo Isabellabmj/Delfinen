@@ -4,6 +4,7 @@ import java.util.ArrayList;
 public class Konkurrence
 {
     protected String staevne;
+    protected Trainer trainer;
     protected String placering;
     protected LocalDate dagsDato;
     protected ArrayList<Medlem> deltagere;

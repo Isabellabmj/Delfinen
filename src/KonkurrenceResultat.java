@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class KonkurrenceResultat
 {
-    protected ArrayList<Konkurrence> konkurrence;
+    protected ArrayList<Medlem> konkurrenceMedlem;
     protected String tid;
     protected String svoemmedisciplin;
 
