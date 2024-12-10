@@ -4,111 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7058e54-36fe-478a-bf6f-81a10dba951c" name="Changes" comment="" />
+    <list default="true" id="ec8e7545-6058-4dff-a56f-8e2be60b895f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Delfinen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Delfinen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Betalinger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Betalinger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Medlem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medlem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MedlemmerPersistens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MedlemmerPersistens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MedlemsOversigt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/MedlemsOversigt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tilmelding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tilmelding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TrainerOversigt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrainerOversigt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/restancePersistens.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/restancePersistens.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/traenerPersistens.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/traenerPersistens.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
-}</component>
-  <component name="ProjectId" id="2pQvPZLQHmy0Nc2udhDq3OZdzt0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2pyzaFmJnqeTAAlbUCYZ4DX6Avy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.GUI.executor": "Run",
-    "Application.Indmeldelse.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Tilmelding.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.TestKontingentBeregner.executor": "Run",
-    "JUnit.TestKontingentBeregner.testSeniorMedlemskabMedRabat.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/isabe/OneDrive/Skrivebord/Koder/CprNr",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Tilmelding">
-    <configuration name="Indmeldelse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Indmeldelse" />
-      <module name="Delfinen" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Delfinen" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tilmelding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tilmelding" />
-      <module name="Delfinen" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestKontingentBeregner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Delfinen" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestKontingentBeregner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestKontingentBeregner.testSeniorMedlemskabMedRabat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Delfinen" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestKontingentBeregner" />
-      <option name="METHOD_NAME" value="testSeniorMedlemskabMedRabat" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Tilmelding" />
-        <item itemvalue="Application.Indmeldelse" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TestKontingentBeregner.testSeniorMedlemskabMedRabat" />
-        <item itemvalue="JUnit.TestKontingentBeregner" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -120,13 +61,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d7058e54-36fe-478a-bf6f-81a10dba951c" name="Changes" comment="" />
-      <created>1732711101821</created>
+      <changelist id="ec8e7545-6058-4dff-a56f-8e2be60b895f" name="Changes" comment="" />
+      <created>1733753164492</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1732711101821</updated>
-      <workItem from="1732711102758" duration="35081000" />
-      <workItem from="1733211476958" duration="35630000" />
+      <updated>1733753164492</updated>
+      <workItem from="1733753165660" duration="4567000" />
     </task>
     <servers />
   </component>

@@ -87,7 +87,7 @@ public class Medlem extends Person
     {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
 
-       int betaling;
+        int betaling;
         if(erRestance == true)
         {
             betaling = betalinger.udregnRestance(this);

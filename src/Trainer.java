@@ -1,7 +1,9 @@
-public class Trainer extends Person {
+public class Trainer extends Person
+{
     protected String diciplin;
 
-    public Trainer(String navn, CprNr cpr, int telNr, String mail, String diciplin) {
+    public Trainer(String navn, CprNr cpr, int telNr, String mail, String diciplin)
+    {
         super(navn, cpr, telNr, mail);
         this.diciplin = diciplin;
     }
@@ -12,7 +14,8 @@ public class Trainer extends Person {
     }
 
     @Override
-    public String toString() {
+    public String toString()
+    {
         return super.toString() + "Diciplin: " + diciplin + "\n";
     }
 }

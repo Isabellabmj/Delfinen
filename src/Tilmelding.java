@@ -3,6 +3,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.UUID;
 
 public class Tilmelding
 {
@@ -76,6 +77,8 @@ public class Tilmelding
         Betalinger betalinger = new Betalinger();
 
         boolean erRestance = false;
+
+        //String brugerID = UUID.randomUUID().toString().substring(0,8);
 
         Medlem nytMedlem = new Medlem(navn, cpr, tlfNr, mail, oprettelsesDato, aktivStatus, erMotionist, naesteMedlemsID, betalinger, erRestance);
         opretMedlem.add(nytMedlem);

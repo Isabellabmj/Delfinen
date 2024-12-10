@@ -46,30 +46,28 @@ public class Betalinger
 
     public int udregnRestance(Medlem medlem)
     {
-    int medlemsKontingent = 0;
+        int medlemsKontingent = 0;
 
         if (medlem.getMedlemStatus().equalsIgnoreCase("Aktiv"))
-    {
+        {
 
-        int alder = medlem.getAlder();
-        if (medlem.getAlderKategori().equalsIgnoreCase("Junior"))
-        {
-            medlemsKontingent = -1000;
-        } else if (alder >= 60)
-        {
-            medlemsKontingent = (int) (1600 * 0.75);
+            int alder = medlem.getAlder();
+            if (medlem.getAlderKategori().equalsIgnoreCase("Junior"))
+            {
+                medlemsKontingent = -1000;
+            } else if (alder >= 60)
+            {
+                medlemsKontingent = (int) (1600 * 0.75);
+            } else
+            {
+                medlemsKontingent = -1600;
+            }
         } else
         {
-            medlemsKontingent = -1600;
+            medlemsKontingent = -500;
         }
-    } else
-    {
-        medlemsKontingent = -500;
-    }
 
         return medlemsKontingent;
-}
+    }
 
 }
-
-

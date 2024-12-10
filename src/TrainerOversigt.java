@@ -68,7 +68,8 @@ public class TrainerOversigt
 
 
     @Override
-    public String toString() {
+    public String toString()
+    {
         return super.toString() + "Diciplin: " + diciplin + "\n";
     }
 }

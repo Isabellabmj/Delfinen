@@ -49,7 +49,7 @@ public class MedlemmerPersistens {
         StringBuilder sb = new StringBuilder("Medlemmere:\n\n");
 
         for (int i = 0; i < medlemmereOversigtArray.size(); i++) {
-            sb.append(medlemmereOversigtArray.get(i).toString()).append("\n");  // Hent og tilføj hvert medlemmes toString
+            sb.append(medlemmereOversigtArray.get(i).toString()).append("\n");
         }
 
         return sb.toString();
