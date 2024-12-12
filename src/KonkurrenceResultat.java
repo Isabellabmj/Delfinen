@@ -9,6 +9,11 @@ public class KonkurrenceResultat
     public KonkurrenceResultat()
     {}
 
+    public ArrayList<Medlem> getKonkurrenceMedlem()
+    {
+        return konkurrenceMedlem;
+    }
+
     public String getTid()
     {
         return tid;

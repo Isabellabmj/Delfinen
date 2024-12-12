@@ -45,6 +45,11 @@ public class Medlem extends Person
         }
     }
 
+    public boolean getRestance()
+    {
+        return erRestance;
+    }
+
     public String getMedlemsType()
     {
         if(erMotionist == true)

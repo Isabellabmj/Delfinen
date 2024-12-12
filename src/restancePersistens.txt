@@ -1,29 +1,29 @@
 LISTE OVER MEDLEMMERE I RESTANCE 
 
-Medlem: Nora Poulsen
-CPR: 241093-1510
-Alder: 31
+Medlem: Alexander Hansen
+CPR: 060448-0099
+Alder: 76
 Aktiv/Passiv: Passiv
 Skylder: -500 DKK
 
 
-Medlem: Elias Rasmussen
-CPR: 160284-3235
-Alder: 40
+Medlem: Carl Pedersen
+CPR: 270774-6245
+Alder: 50
 Aktiv/Passiv: Passiv
 Skylder: -500 DKK
 
 
-Medlem: Emil Olsen
-CPR: 180267-3503
-Alder: 57
-Aktiv/Passiv: Passiv
-Skylder: -500 DKK
+Medlem: Noah Pedersen
+CPR: 280500-7835
+Alder: 24
+Aktiv/Passiv: Aktiv
+Skylder: -1600 DKK
 
 
-Medlem: Clara Sørensen
-CPR: 070170-7610
-Alder: 54
+Medlem: William Jensen
+CPR: 050608-8715
+Alder: 16
 Aktiv/Passiv: Passiv
 Skylder: -500 DKK
 

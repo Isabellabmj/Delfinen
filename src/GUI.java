@@ -1,4 +1,4 @@
-/*import javax.swing.*;
+import javax.swing.*;
 import javax.swing.text.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -194,7 +194,7 @@ public class GUI extends JFrame
                 doc.insertString(doc.getLength(), String.format("%-25s %-20s %-15s %-15s %-20s %-20s\n",
                         medlem.navn,
                         medlem.cpr.toString(),
-                        medlem.telNr,
+                        medlem.tlfNr,
                         medlem.getMedlemStatus(),
                         medlem.getMedlemsType(),
                         medlem.getMedlemsId()
@@ -288,9 +288,9 @@ public class GUI extends JFrame
                     int telNr = Integer.parseInt(telNrInput);
 
                     // Create a new Traener object with the provided input
-                    Traener newTraener = new Traener(
+                    Trainer newTraener = new Trainer(
                             navn,
-                            new CPR("123456-1234"),    // Use a placeholder CPR
+                            new CprNr("123456-1234"),    // Use a placeholder CPR
                             telNr,                    // Phone number (int)
                             mail,                     // Email
                             disciplin                 // Disciplin
@@ -361,13 +361,13 @@ public class GUI extends JFrame
             doc.insertString(doc.getLength(), "-------------------------------------------------------------------------------\n", null);
 
             // Format the rows with alternating light and dark backgrounds for better readability
-            for (Traener traener : traenerOversigt.getTraenerListe())
+            for (Trainer traener : traenerOversigt.getTraenerListe())
             {
                 doc.insertString(doc.getLength(), String.format("%-20s %-10s %-28s %-15s\n",
                         traener.getNavn(),
-                        traener.getTelNr(),
+                        traener.getTlfNr(),
                         traener.getMail(),
-                        traener.getDisiplin() // Display disciplin
+                        traener.getDiciplin() // Display disciplin
                 ), null);
             }
 
@@ -452,7 +452,7 @@ public class GUI extends JFrame
                     doc.insertString(doc.getLength(), String.format("%-25s %-20s %-15s %-15s %-20s %-10d\n",
                             medlem.navn,
                             medlem.cpr.toString(),
-                            medlem.telNr,
+                            medlem.tlfNr,
                             medlem.getMedlemStatus(),
                             medlem.getMedlemsType(),
                             skylder
@@ -590,4 +590,4 @@ public class GUI extends JFrame
         }
     }
 
-}*/
+}

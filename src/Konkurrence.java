@@ -9,6 +9,8 @@ public class Konkurrence
     protected LocalDate dagsDato;
     protected ArrayList<Medlem> deltagere;
 
+
+
     public Konkurrence()
     {}
 

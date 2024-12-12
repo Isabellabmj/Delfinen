@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec8e7545-6058-4dff-a56f-8e2be60b895f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Delfinen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Delfinen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Betalinger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Betalinger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Konkurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Konkurrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KonkurrenceResultat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KonkurrenceResultat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Medlem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medlem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MedlemmerPersistens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MedlemmerPersistens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MedlemsOversigt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MedlemsOversigt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MedlemsOversigt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/MedlemsOversigt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tilmelding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tilmelding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TrainerOversigt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrainerOversigt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/restancePersistens.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/restancePersistens.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/traenerPersistens.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/traenerPersistens.txt" afterDir="false" />
     </list>
@@ -28,28 +25,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2pyzaFmJnqeTAAlbUCYZ4DX6Avy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -66,7 +71,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733753164492</updated>
-      <workItem from="1733753165660" duration="4567000" />
+      <workItem from="1733753165660" duration="9822000" />
+      <workItem from="1733995624857" duration="631000" />
     </task>
     <servers />
   </component>

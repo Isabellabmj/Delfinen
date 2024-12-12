@@ -8,6 +8,7 @@ public class MedlemsOversigt
 
     protected ArrayList<Medlem> medlemmerOversigt = new ArrayList<>();
     protected Restance restance;
+    protected Betalinger betalinger;
 
 
     public MedlemsOversigt()
@@ -125,5 +126,8 @@ public class MedlemsOversigt
     }
 
 
-
+    public Betalinger getBetalinger()
+    {
+        return betalinger;
+    }
 }
