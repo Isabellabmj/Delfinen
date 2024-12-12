@@ -6,16 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ec8e7545-6058-4dff-a56f-8e2be60b895f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Delfinen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Delfinen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Konkurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Konkurrence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KonkurrenceResultat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KonkurrenceResultat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Medlem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medlem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MedlemsOversigt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MedlemsOversigt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MedlemsOversigt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/MedlemsOversigt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/restancePersistens.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/restancePersistens.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/traenerPersistens.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/traenerPersistens.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1733753164492</updated>
       <workItem from="1733753165660" duration="9822000" />
-      <workItem from="1733995624857" duration="631000" />
+      <workItem from="1733995624857" duration="735000" />
     </task>
     <servers />
   </component>
